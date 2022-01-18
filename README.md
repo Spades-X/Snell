@@ -5,7 +5,7 @@
 
 ### 一键安装脚本 :
 *（1）安装 wget 依赖包
-、、、
+'''
 yum -y install wget #CentOS
 apt-get install wget #Ubuntu/Debian
-、、、
+'''
