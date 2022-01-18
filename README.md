@@ -1,5 +1,7 @@
 # Snell
 
+## 脚本和安装方式取自 [一灯不是和尚](https://iyideng.vip/black-technology/cgfw/snell-server-building-and-using-tutorial.html) 本人仅更改脚本中snell的安装包为V3
+
 ### 说明 :
   Snell协议简介：Snell 是 Surge Network 团队开发的私有专属协议，而且官方声称还没有决定是否将Snell协议开源，官方只提供了编译过的二进制文件，现在 Snell V3正式版已发布。Snell 用到了 AEAD 加密方式和 OBFS-HTTP 混淆，相对Shadowsocks协议的优点是效率高、速度快，缺点是暂时不支持多用户管理，只能个人使用，不方便与朋友共享（多用户ACL已准备就绪，还没有正式发布）。
 
@@ -77,5 +79,5 @@ chmod +x uninstall-snell.sh
 ./uninstall-snell.sh
 ```
 
-# 脚本和安装方式取自 [一灯不是和尚](https://iyideng.vip/black-technology/cgfw/snell-server-building-and-using-tutorial.html) 
+
 
