@@ -37,3 +37,17 @@ systemctl restart snell #重启 Snell 服务器
 ```
 
 执行第一条命令后进入VI编辑器编辑 snell-server.conf 配置文件，如下图所示：
+
+
+
+
+![编辑snell-server conf配置文件，修改Snell服务器运行端口](https://user-images.githubusercontent.com/94962349/149941638-0953d737-4c4b-4ff8-949a-31bd5904262d.png)
+
+
+
+
+
+
+
+
+
