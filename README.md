@@ -26,3 +26,14 @@ wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/primov
 chmod +x snell.sh
 ./snell.sh
 ```
+
+  2）修改Snell服务器运行端口
+
+Snell首次安装完成的默认端口号为：13254，如需修改，请在以上所有脚本运行结束后运行如下命令：
+
+```
+nano /etc/snell/snell-server.conf #编辑 Snell 配置文件
+systemctl restart snell #重启 Snell 服务器
+```
+
+执行第一条命令后进入VI编辑器编辑 snell-server.conf 配置文件，如下图所示：
