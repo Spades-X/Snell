@@ -12,9 +12,17 @@ apt-get install wget #Ubuntu/Debian
 （2）执行Snell一键安装脚本
 
   1）执行一键安装脚本命令
+  
   Debian & Ubuntu 用户依次执行命令：
 ```
 wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/primovist/snell.sh/master/snell.sh
+chmod +x snell.sh
+./snell.sh
+```
+
+  Centos & RedHat 用户依次执行命令：
+```
+wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/primovist/snell.sh/master/snell.centos.sh
 chmod +x snell.sh
 ./snell.sh
 ```
