@@ -22,7 +22,7 @@ chmod +x snell.sh
 
   Centos & RedHat 用户依次执行命令：
 ```
-wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/primovist/snell.sh/master/snell.centos.sh
+wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/Spades-X/Snell/main/snell.centos.sh
 chmod +x snell.sh
 ./snell.sh
 ```
@@ -77,5 +77,5 @@ chmod +x uninstall-snell.sh
 ./uninstall-snell.sh
 ```
 
-
+# 脚本和安装方式取自 [一灯不是和尚](https://iyideng.vip/black-technology/cgfw/snell-server-building-and-using-tutorial.html) 
 
