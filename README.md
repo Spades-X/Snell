@@ -54,9 +54,28 @@ obfs = 混淆方式
 
 如果Snell服务器运行状态正常，那么执行查看Snell服务运行状态命令后显示“Active: active (running)”，即表示Snell服务成功运行。如下图所示：
 
+![Snell服务器运行状态查看](https://user-images.githubusercontent.com/94962349/149941918-a3085163-185d-42e5-8de3-0b6a4b4eade5.png)
 
+  3）Snell服务器管理命令
 
+管理Snell服务命令：
 
+```
+systemctl status snell #查看运行状态
+systemctl restart snell #重启Snell服务
+systemctl start snell #启动Snell服务
+systemctl stop snell #停止Snell服务
+cat /etc/snell/snell-server.conf #查看Snell配置文件
+vi /etc/snell/snell-server.conf #修改Snell配置文件
+```
+
+卸载Snell服务命令：
+
+```
+wget --no-check-certificate -O uninstall-snell.sh https://raw.githubusercontent.com/primovist/snell.sh/master/uninstall-snell.sh
+chmod +x uninstall-snell.sh
+./uninstall-snell.sh
+```
 
 
 
