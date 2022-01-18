@@ -43,7 +43,9 @@ systemctl restart snell #重启 Snell 服务器
 snell-server.conf 各参数解析：
 
 listen = IP:端口
+
 psk = 连接密码
+
 obfs = 混淆方式
 
 其中，obfs混淆一般支持“tls”或“http”两种方式，本脚本默认为“tls”混淆方式。
