@@ -38,12 +38,19 @@ systemctl restart snell #重启 Snell 服务器
 
 执行第一条命令后进入VI编辑器编辑 snell-server.conf 配置文件，如下图所示：
 
-
-
-
 ![编辑snell-server conf配置文件，修改Snell服务器运行端口](https://user-images.githubusercontent.com/94962349/149941638-0953d737-4c4b-4ff8-949a-31bd5904262d.png)
 
+snell-server.conf 各参数解析：
 
+listen = IP:端口
+psk = 连接密码
+obfs = 混淆方式
+
+其中，obfs混淆一般支持“tls”或“http”两种方式，本脚本默认为“tls”混淆方式。
+
+注意事项：如果你不想要修改默认端口，请直接跳过第3步，否则小白萌新会被搞懵的，你有可能不知道怎么退出VI编辑器，更不知道怎么修改和保存。
+
+如果Snell服务器运行状态正常，那么执行查看Snell服务运行状态命令后显示“Active: active (running)”，即表示Snell服务成功运行。如下图所示：
 
 
 
